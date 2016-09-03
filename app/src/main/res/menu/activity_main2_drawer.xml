@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_balance_24dp"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_post_upload_24dp"
+            android:title="Post an event" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_event_input_component_24dp"
+            android:title="Event" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_gender_24dp"
+            android:title="Gender" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_profile_24dp1"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_exit_off_24dp"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

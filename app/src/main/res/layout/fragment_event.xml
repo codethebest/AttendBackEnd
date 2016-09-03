@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liyolomoko.attendeventappfrontend.views.EventFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="188dp"
+        android:text="Add Event"
+        android:id="@+id/btnAddEvent"
+        android:layout_gravity="left|top"
+        android:layout_above="@+id/btnUpdateEvent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnUpdateEvent"
+        android:layout_alignEnd="@+id/btnUpdateEvent" />
+
+    <Button
+        android:layout_width="181dp"
+        android:layout_height="187dp"
+        android:text="Delete Event"
+        android:id="@+id/btnDeleteEvent"
+        android:layout_gravity="right|top"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnViewEvents"
+        android:layout_alignStart="@+id/btnViewEvents" />
+
+    <Button
+        android:layout_width="181dp"
+        android:layout_height="187dp"
+        android:text="Update Event"
+        android:id="@+id/btnUpdateEvent"
+        android:layout_gravity="right|top"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="181dp"
+        android:layout_height="187dp"
+        android:text="View Events"
+        android:id="@+id/btnViewEvents"
+        android:layout_gravity="right|top"
+        android:layout_above="@+id/btnUpdateEvent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Event Side"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

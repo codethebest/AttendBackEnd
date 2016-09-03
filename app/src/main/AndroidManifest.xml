@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liyolomoko.attendeventappfrontend">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".views.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".views.LoginActivity" />
+        <activity android:name=".views.RegisterActivity" />
+
+        <service
+            android:name=".service.person.impl.PersonAddressServicesImpl"
+            android:exported="false" />
+        <service
+            android:name=".service.person.impl.PersonContactServiceimpl"
+            android:exported="false" />
+        <service
+            android:name=".service.person.impl.PersonServiceimpl"
+            android:exported="false" />
+        <service
+            android:name=".service.user.impl.CommentOnPostServiceimpl"
+            android:exported="false" />
+        <service
+            android:name=".service.user.impl.PostAnEventServiceimpl"
+            android:exported="false" />
+        <service
+            android:name=".service.user.impl.UserRegistrationServiceimpl"
+            android:exported="false" />
+        <service
+            android:name=".service.event.impl.EventContactServiceimpl"
+            android:exported="false" />
+        <service
+            android:name=".service.event.impl.EventServiceimpl"
+            android:exported="false" />
+        <service
+            android:name=".service.event.impl.EventAddressServiceimpl"
+            android:exported="false"></service>
+
+        <activity
+            android:name=".views.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
